@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Работа с формами</title>
+</head>
+<body>
+	<h2>Анкета</h2>
+
+	<form action="#" name="myForm" method="post">
+		<label for="textPole">Ваше имя:
+			<input type="text" id="textPole" name="textPole">
+		</label>
+
+		<br>
+		<br>
+
+		<label for="radioPole">Ваш пол:
+			<input type="radio" id="radioPole" name="radioPole" value="1">
+			М
+			<input type="radio" id="radioPole" name="radioPole" value="1">
+			Ж
+		</label>
+
+		<br>
+		<br>Год рождения:
+
+		<select>
+			<option>1980</option>
+			<option>1981</option>
+			<option>1982</option>
+			<option>1983</option>
+			<option>1984</option>
+			<option>1985</option>
+			<option>1986</option>
+			<option>1987</option>
+			<option>1988</option>
+			<option>1989</option>
+			<option>1990</option>
+		</select>
+	
+		<br>
+		<p>Приложить документы:
+			<input type="file" name="filePole">
+		</p>
+
+		<button>Проверить</button>
+		
+		<br>
+		<br>
+
+		<label for="checkboxPole">Получать рассылку:
+			<input type="checkbox" id="checkboxPole" name="checkboxPole">
+		</label>
+
+		<br>
+		<br>
+
+		<label for="commentPole">Дополнительно:
+			<textarea id="commentPole" name="comment" cols="30px" rows="4px"></textarea>
+		</label>
+
+
+		<br>
+
+		<p>
+			<input type="reset" name="clear" value="Очистить форму">
+
+			<input type="submit" value="Отправить">
+
+			<input type="image" value="Отправить" src="image4-send-button.jpg" style="max-width: 40px">
+
+
+		<br>
+		
+		<p>
+			<button>
+				<img src="image4-arrow-left.jpg" alt=Назад style="max-width: 20px">
+			</button>
+
+			<button>Вернуться на главную</button>
+
+			<button>
+				<img src="image4-arrow-right.jpg" alt=Вперед style="max-width: 20px">
+			</button>
+		</p>
+
+	</form>
+</body>
+</html>
