@@ -23,7 +23,8 @@ body {
 .menu a {
 	text-decoration: none;
 	font-size: 25px;
-	font-family: calibri, arial, 'sans-serif'
+	font-family: calibri, arial, 'sans-serif';
+	color: #980D12;
 }
 
 .search {
